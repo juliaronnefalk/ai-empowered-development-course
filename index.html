@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My App</title>
+    <title>Todo App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,13 +12,27 @@
     </header>
 
     <main>
-        <p>Welcome to the app.</p>
+        <div class="container">
+            <h1>My Todos</h1>
+            <div class="input-section">
+                <input type="text" id="todoInput" placeholder="Add a new todo...">
+                <button id="addBtn">Add</button>
+            </div>
+
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="active">Active</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+
+            <ul class="todoList" id="todoList"></ul>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2026</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script type="module" src="/main.js"></script>
 </body>
 </html>

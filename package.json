@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Todo app demo for multi-agent parallel development",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint app.js",
     "lint:css": "stylelint styles.css",
@@ -24,6 +27,7 @@
     "vite": "^7.3.1"
   },
   "dependencies": {
-    "jq": "^1.7.2"
+    "jq": "^1.7.2",
+    "vibe-kanban-web-companion": "^0.0.5"
   }
 }
