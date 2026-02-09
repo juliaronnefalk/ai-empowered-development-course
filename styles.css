@@ -5,7 +5,7 @@
 }
 
 :root {
-    --color-primary: #3b82f6;
+    --color-primary: #ec4899;
     --color-background: #ffffff;
     --color-text: #1f2937;
     --spacing: 1rem;
@@ -62,7 +62,7 @@ footer {
 .input-section input:focus {
     outline: none;
     border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
 }
 
 .input-section button {
@@ -78,11 +78,11 @@ footer {
 }
 
 .input-section button:hover {
-    background-color: #2563eb;
+    background-color: #db2777;
 }
 
 .input-section button:active {
-    background-color: #1d4ed8;
+    background-color: #be185d;
 }
 
 /* Filter buttons (Feature 2) */
